@@ -22,7 +22,7 @@ const toDataURL = (url) => {
 const App = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("http://192.168.140.171:5050/api/wallets/")
+    fetch("http://94.72.123.153:5050/api/wallets/")
       .then((res) => res.json())
       .then(async (data) => {
         console.log(data);
